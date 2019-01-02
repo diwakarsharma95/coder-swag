@@ -12,6 +12,7 @@
 		BEDB86D121DCAB8000CE5E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDB86CF21DCAB8000CE5E6D /* Main.storyboard */; };
 		BEDB86D321DCAB8000CE5E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDB86D221DCAB8000CE5E6D /* Assets.xcassets */; };
 		BEDB86D621DCAB8000CE5E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDB86D421DCAB8000CE5E6D /* LaunchScreen.storyboard */; };
+		BEDB86E121DCCB9D00CE5E6D /* CategoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB86E021DCCB9D00CE5E6D /* CategoryCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BEDB86D221DCAB8000CE5E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDB86D521DCAB8000CE5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEDB86D721DCAB8000CE5E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDB86E021DCCB9D00CE5E6D /* CategoryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				BEDB86CA21DCAB8000CE5E6D /* coder-swag */,
-				BEDB86C921DCAB8000CE5E6D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,19 +50,46 @@
 				BEDB86C821DCAB8000CE5E6D /* coder-swag.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		BEDB86CA21DCAB8000CE5E6D /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
-				BEDB86CB21DCAB8000CE5E6D /* AppDelegate.swift */,
-				BEDB86CD21DCAB8000CE5E6D /* ViewController.swift */,
-				BEDB86CF21DCAB8000CE5E6D /* Main.storyboard */,
-				BEDB86D221DCAB8000CE5E6D /* Assets.xcassets */,
+				BEDB86DF21DCAE2C00CE5E6D /* View */,
+				BEDB86DE21DCAE1D00CE5E6D /* Model */,
+				BEDB86DD21DCADF400CE5E6D /* Controller */,
+				BEDB86C921DCAB8000CE5E6D /* Products */,
 				BEDB86D421DCAB8000CE5E6D /* LaunchScreen.storyboard */,
 				BEDB86D721DCAB8000CE5E6D /* Info.plist */,
 			);
 			path = "coder-swag";
+			sourceTree = "<group>";
+		};
+		BEDB86DD21DCADF400CE5E6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB86CB21DCAB8000CE5E6D /* AppDelegate.swift */,
+				BEDB86CD21DCAB8000CE5E6D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEDB86DE21DCAE1D00CE5E6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEDB86DF21DCAE2C00CE5E6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB86CF21DCAB8000CE5E6D /* Main.storyboard */,
+				BEDB86D221DCAB8000CE5E6D /* Assets.xcassets */,
+				BEDB86E021DCCB9D00CE5E6D /* CategoryCellTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEDB86CE21DCAB8000CE5E6D /* ViewController.swift in Sources */,
+				BEDB86E121DCCB9D00CE5E6D /* CategoryCellTableViewCell.swift in Sources */,
 				BEDB86CC21DCAB8000CE5E6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
